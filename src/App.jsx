@@ -1,3 +1,4 @@
+/*
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -33,3 +34,17 @@ function App() {
 }
 
 export default App
+*/
+
+import React from 'react';
+import PokemonCard from './components/PokemonCard';
+
+const App = () => {
+  return (
+    <div>
+      <PokemonCard />
+    </div>
+  );
+};
+
+export default App;
